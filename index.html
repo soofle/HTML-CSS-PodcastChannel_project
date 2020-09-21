@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Esta página HTML contiene el proyecto 'Podcasts Channel' 
+  de la carrera de Desarrollo Web Full Stack de ACAMICA, de Sofia Ayelen Varela">
+  <meta name="keywords" content="HTML, podcasts, proyecto, acamica, podcasts channel, programacion, CSS, SCSS, spotify">
+  <meta name="author" content="Sofia Ayelen Varela">
+
+  <title>Podcasts Channel - Sofia Ayelen Varela</title>
+
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500/IBM+Plex+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e53e3000d7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/images/favicon.ico" type="image/ico">
+
+</head>
+
+<body>
+
+  <header>
+    <img class="logo" src="/images/logo.svg" alt="Logo de la página Web"/>
+
+    <div class="menu_secciones">
+      <input type="checkbox" id="menu_secciones">
+      <span></span>
+      <span></span>
+      <span></span>
+    <nav>
+      <ul>
+        <li><a href="#episodios">EPISODIOS</a></li>
+        <li><a href="#nosotros">NOSOTROS</a></li>
+        <li><a href="#entrevistas">ENTREVISTAS</a></li>
+        <li><a href="#topicos">TÓPICOS</a></li>
+      </ul>
+    </nav>
+  </div>
+     
+  </header>
+    
+  <main>
+
+    <section class="intro">
+      <h1>Hello <del>world</del> <span class="nomostrar"><br></span>pale blue dot<span class="punto">.</span></h1>
+      <p class="intromobile">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+      <p class="introdesktop">El portal de podcasts que explora el mundo de la programación y
+        <br>la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+      <a href="/index.html">
+        <div class="button-normal"><span>CONOCÉ MÁS</span></div>
+      </a>  
+    </section>
+
+    <section id="episodios" class="episodios">
+      <h2>Episodios</h2>
+      <div class="containerE">
+        <div class="episodio">
+          <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"
+          allow="encrypted-media"></iframe>
+        </div>
+        <div class="episodio">
+          <iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"  
+          allow="encrypted-media"></iframe>
+        </div>
+        <div class="episodio">
+          <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"  
+          allow="encrypted-media"></iframe>
+        </div>
+        <div class="episodio">
+          <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"  
+          allow="encrypted-media"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="nosotros"> 
+      <div class="contenedor_img">
+        <img src="/images/phone.png" alt="Imagen de celular">
+      </div>
+      <div class="contenedor_nosotros">
+        <h2>De dónde venimos</h2>
+        <p>Our posturings, our imagined self-importance, the delusion that we have some 
+        privileged position in the Universe, are challenged by this point of pale light. 
+        </p>
+        <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, 
+        in all this vastness, there is no hint that help will come from elsewhere to save us 
+        from ourselves.</p>
+      </div> 
+    </section>
+
+    <section id="entrevistas" class="entrevistas">
+      <h2>Invitadas/os <span class="nomostrar"><br></span>estelares</h2>
+      <div id="contenedor_entrevistas" class="containerN">
+        <img class="img" src="/images/grace-hopper.png" alt="Grace Hopper">
+        <img class="img" src="/images/Katie-Bouman.png" alt="Katie Bouman">
+        <img class="img" src="/images/Margaret_Hamilton.png" alt="Margaret Hamilton">
+        <img class="img" src="/images/Univac1103computer.png" alt="An E.R.A.Univac 1103 computer in the 1950s">
+        <img class="img" src="/images/Eniac.png" alt="Computer operators with an Eniac-the world's first programmable general-purpose computer">
+        <img class="img" src="/images/susan-kare.png" alt="Susan Kare">
+      </div>
+    </section>
+
+    <section id="topicos" class="topicos">
+      <h2>Algunos de nuestros temas</h2>
+      <div class="contenedor_topicos">
+        <div>
+          <img src="/images/icon1.svg" alt="Ícono Trabajo remoto">
+          <h3>Trabajo remoto</h3>
+        </div>
+        <div>
+          <img src="/images/icon2.svg" alt="Ícono Repensando la programación">
+          <h3>Repensando la <br>programación</h3>
+        </div>
+        <div>
+          <img src="/images/icon3.svg" alt="Ícono Bases del código">
+          <h3>Bases del código</h3>
+        </div>
+        <div>
+          <img src="/images/icon4.svg" alt="Ícono Seguridad informática">
+          <h3>Seguridad <br>informática</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="novedades">
+      <h2>¿Querés las últimas novedades?</h2>
+      <a href="#episodios">
+        <div class="button-normal button"><span>ESCUCHÁ LOS EPISODIOS</span></div>
+      </a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2019— Hello blue pale dot</p>
+    <div class="redes_sociales">
+      <a href="https://www.spotify.com/" target="_blank"><i class="fab fa-spotify"></i></a> 
+      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://web.telegram.org/" target="_blank"><i class="fab fa-telegram"></i></a>
+    </div>
+  </footer>
+
+</body>
+</html>

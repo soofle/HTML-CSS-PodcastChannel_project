@@ -1,0 +1,48 @@
+.topicos{
+
+    position: relative;
+    padding-top: 3rem;
+    h2{
+        padding-bottom: 1.8rem;
+    }
+     
+    .contenedor_topicos{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        img{
+            padding-bottom: 13px;
+            width: 104px;
+            height: 104px;
+        }
+        h3{
+            padding-bottom: 3rem;
+        }
+    }
+    
+    @media screen and (min-width:$tablet) {
+
+        img{
+            padding-bottom: 29px;
+        }
+        h2{
+            padding-bottom: 4.3rem;
+        }
+        .contenedor_topicos{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media screen and (min-width:$desktop){
+        padding-top: 0px;
+        .contenedor_topicos{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+
+
+
+    
+    
+}

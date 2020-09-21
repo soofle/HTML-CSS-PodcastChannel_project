@@ -1,0 +1,33 @@
+*{
+    border: 0px;
+    box-sizing: border-box;    
+    margin: 0px;
+}
+
+body{
+
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+    a{
+        text-decoration: none;
+        &:visited{
+            text-decoration: none;
+        }
+        &:active{
+            text-decoration: none;
+        }
+    }
+    
+    h2{
+        padding-left: 16px;
+    }
+    
+    @media screen and (min-width:$desktop){
+
+        h2{
+            padding-left: 200px;
+        }
+    }
+}

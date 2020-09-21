@@ -1,0 +1,47 @@
+.intro{
+
+  width: 100%;
+  padding-left: 16px;
+  padding-top: 29px;
+  padding-bottom: 24px;
+
+  h1{
+    padding-bottom: 1rem;
+    margin-bottom:0px;
+  }
+
+  .introdesktop{
+    display: none;
+  }
+  .intromobile{
+    padding-top: 0px;
+    padding-right: 16px; 
+    padding-bottom: 36px;
+    }
+
+
+  @media screen and (min-width:$desktop) {
+
+    padding-left: 200px;
+    padding-bottom: 4em;
+
+    h1{
+      margin: 0px;
+      padding-top: 11rem;
+      padding-bottom: 1.2rem;
+    }
+
+    .introdesktop{
+      display: block;
+      padding-top: 0em;
+      padding-bottom: 3.5em;
+    }
+    .nomostrar{
+      display: none;
+    }
+
+    .intromobile{
+      display: none;
+    }
+  }
+}    

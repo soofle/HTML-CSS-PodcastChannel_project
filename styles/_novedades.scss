@@ -1,0 +1,34 @@
+.novedades{
+    background-image: linear-gradient(225deg, $color-background-gradient1 0%, $color-background-gradient2 100%);
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+    
+    padding-top: 4.3rem;
+    padding-bottom: 4.1rem; 
+    width: 100%;
+
+    text-align: center;
+    color: $color-text_backgroundcolored;
+    h2{
+        padding-bottom: 2.25rem;
+    }
+    .button{
+        margin-left: auto;
+        margin-right: auto;
+    }  
+
+    @media screen and (min-width:$desktop){
+        clip-path: polygon(0 27%, 100% 0, 100% 100%, 0 100%);
+        padding-top: 13rem;
+        padding-bottom: 9.4rem; 
+        h2{
+            padding-left: 0px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 2.25rem;
+        }
+        .button{
+            width: 19.167em;
+            height: 3.111em;
+        }   
+    }
+}

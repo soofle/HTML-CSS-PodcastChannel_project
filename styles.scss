@@ -1,0 +1,24 @@
+// --- Normalizador --- //
+@import "styles/_normalize.css"; //Fuente: github.com
+
+// --- Variables --- //
+@import "styles/_variables.scss"; 
+
+// --- General --- //
+@import "styles/_body.scss"; 
+
+// --- Fuentes --- //
+@import "styles/_fonts.scss"; 
+
+// --- Elementos específicos --- //
+@import "styles/_buttons.scss";
+
+// --- Secciones --- //
+@import "styles/_menu.scss";
+@import "styles/_intro.scss";
+@import "styles/_episodios.scss";
+@import "styles/_nosotros.scss";
+@import "styles/_entrevistas.scss";
+@import "styles/_topicos.scss";
+@import "styles/_novedades.scss";
+@import "styles/_footer.scss";

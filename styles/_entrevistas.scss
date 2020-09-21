@@ -1,0 +1,41 @@
+.entrevistas{
+
+    width: 100%;
+    position: relative;
+    padding-top: 3.375rem;
+
+    h2{
+        padding-bottom: 1rem;
+    }
+    
+    .img{
+        display: block;
+        width: 100%;
+    }
+
+    @media screen and (min-width:$tablet) {
+
+        .img{
+            display: block;
+        }
+        .containerN{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .nomostrar{
+            display: none;
+          }
+    }
+    @media screen and (min-width:$desktop){
+
+        top:-120px;
+        padding-top: 4rem;
+        h2{
+            padding-bottom: 2.25rem;
+        }
+        .containerN{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}

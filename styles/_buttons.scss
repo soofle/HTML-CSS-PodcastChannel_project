@@ -1,0 +1,43 @@
+.button-normal{
+
+    background-color: $color-button;
+    color: $color-text;
+    font-family: $font-family-monospace;
+    font-weight: 500;
+    letter-spacing: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    span{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a:visited{
+        color: $color-text;
+    }
+    
+    font-size: 16px;
+    line-height: 22px;
+    height: 3em;
+    width: 18em;
+
+    @media screen and (min-width: $desktop){
+
+        font-size: 18px;
+        line-height: 24px; 
+        height: 3.5em;
+        width: 14.125em;
+    }
+}
+
+.button-normal:hover{
+    
+    background-image: linear-gradient(225deg, $color-button-hover2 0%, $color-button-hover1 100%);
+    color: $color-text_backgroundcolored;
+
+    a:visited{
+        color: $color-text_backgroundcolored;
+    }
+}

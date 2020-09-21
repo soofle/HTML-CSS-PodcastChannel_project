@@ -1,0 +1,63 @@
+body{
+
+    font-family: $font-family-main; 
+    letter-spacing: 0px;
+    color: $color-text;
+    font-size: 16px;
+
+    p{
+        font-family: $font-family-monospace;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    h1, h2{   
+        font-size: 36px;
+        font-weight: normal; 
+        line-height: 42px;
+    }
+
+    h3{
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .punto{
+        color: $color-text; 
+    }
+    
+    .redes_sociales{
+        color: $color-text-button-normal;
+        line-height: 28px;
+        font-size: 16px;
+
+        a:checked, a:visited, a:active{
+            i{
+                text-decoration: none;
+                color: $color-text-button-normal;
+            }
+        }
+    }              
+
+    @media screen and (min-width:$desktop) {
+        h1{
+            font-size: 64px;
+          }
+        h2{
+            font-size: 48px;
+        }
+        h3{
+            font-size: 24px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 24px;
+        } 
+        .redes_sociales{
+            font-size: 18px;    
+        }   
+        .punto{
+            color: $color-background-menu_mobile; 
+        }    
+    } 
+}
